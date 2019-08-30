@@ -1,0 +1,26 @@
+
+.article {
+  flex: 0 0 50%;
+  padding: 10px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.image{
+  height:50em; background-size:cover; width:auto;
+
+  background-image:url(weatherGif.gif);
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
